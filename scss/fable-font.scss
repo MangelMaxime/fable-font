@@ -1,4 +1,4 @@
-$fable-font-base-url: "/static/fonts/fable-font/" !default;
+$fable-font-base-url: "https://unpkg.com/fable-font@1.0.1/webfonts/" !default;
 
 @font-face {
     font-family: 'fable-font';
@@ -10,7 +10,6 @@ $fable-font-base-url: "/static/fonts/fable-font/" !default;
     font-weight: normal;
     font-style: normal;
 }
-
 
 // Prepare bulma to accept our customs icons
 .icon {
